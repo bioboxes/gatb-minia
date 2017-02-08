@@ -8,7 +8,7 @@ set -o xtrace
 export PATH=${PATH}:/usr/local/bin/install
 
 NON_ESSENTIAL_BUILD="make ca-certificates wget gcc g++ python-pip python-dev zlib1g-dev"
-ESSENTIAL_BUILD="fortran libopenblas-dev"
+ESSENTIAL_BUILD="gfortran libopenblas-dev"
 RUNTIME="python-minimal bwa"
 
 # Build dependencies
