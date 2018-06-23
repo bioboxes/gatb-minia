@@ -32,7 +32,7 @@ apt-get install --yes --no-install-recommends ${NON_ESSENTIAL_BUILD} ${ESSENTIAL
 gatb_minia.sh
 besst.sh
 
-pip install --user --requirement /usr/local/share/python_requirements.txt
+pip install --requirement /usr/local/share/python_requirements.txt
 
 # Clean up dependencies
 apt-get autoremove --purge --yes ${NON_ESSENTIAL_BUILD}
